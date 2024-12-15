@@ -9,13 +9,11 @@ type CarousselProps = {
     paragraph?: string;
   }[];
   animationSlide: string;
-  props?: any;
 };
 
 export const Caroussel: FunctionComponent<CarousselProps> = ({
   listAllCard,
   animationSlide,
-  props,
 }) => {
   let slide;
   if (animationSlide.length > 1) {
@@ -35,7 +33,6 @@ export const Caroussel: FunctionComponent<CarousselProps> = ({
     <div
       className="w-4/5 flex gap-3 -z-10 relative my-4 sm:mt-0 sm:mb-4"
       style={slide}
-      {...props}
     >
       {listAllCard.map((card, index) => (
         <Card

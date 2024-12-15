@@ -1,5 +1,4 @@
 //  Pense à lire le README.MD avant de commencer !
-import { Card } from "@/components/card";
 import { GridPattern } from "../public/grid-pattern";
 import { SpikesIcon } from "../public/spikes_icon";
 import { Caroussel } from "@/components/caroussel";
