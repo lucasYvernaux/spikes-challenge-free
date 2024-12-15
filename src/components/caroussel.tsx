@@ -36,6 +36,7 @@ export const Caroussel: FunctionComponent<CarousselProps> = ({
     >
       {listAllCard.map((card, index) => (
         <Card
+          key={index}
           numImage={card.numImg ? card.numImg : index + 1}
           name={card.name}
           paragraph={card.paragraph}
