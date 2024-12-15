@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Spikes - Bienvenue !",
-  description: "Challenge gratuit de Spikes par @0xEzis",
+  title: "Spikes - Bienvenue ! (Yvernaux)",
+  description: "Challenge gratuit de Spikes par @0xEzis fait par Yvernaux",
 };
 
 export default function RootLayout({

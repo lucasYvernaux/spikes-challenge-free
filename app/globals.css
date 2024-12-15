@@ -71,3 +71,23 @@
   font-family: "Aeonik Pro Medium", "Poppins", sans-serif;
   font-weight: normal;
 }
+
+@keyframes slideleft {
+  from {
+    transform: translateX(5%);
+  }
+
+  to {
+    transform: translateX(-40%);
+  }
+}
+
+@keyframes slideright {
+  from {
+    transform: translateX(-40%);
+  }
+
+  to {
+    transform: translateX(5%);
+  }
+}
